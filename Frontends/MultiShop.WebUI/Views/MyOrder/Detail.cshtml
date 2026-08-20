@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/UILayout/_UILayout.cshtml";
+}
+
+@using MultiShop.DtoLayer.OrderDtos.OrderDetailDtos
+@model List<ResultOrderDetailDto>
+
+<div class="container">
+    <h4>Order Details</h4>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Amount</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>₺@item.ProductPrice</td>
+                <td>@item.ProductAmount</td>
+                <td>₺@item.ProductTotalPrice</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

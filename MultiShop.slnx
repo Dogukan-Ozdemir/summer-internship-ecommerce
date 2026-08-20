@@ -1,0 +1,37 @@
+<Solution>
+  <Folder Name="/frontends/">
+    <Project Path="Frontends/MultiShop.DtoLayer/MultiShop.DtoLayer.csproj" />
+    <Project Path="Frontends/MultiShop.WebUI/MultiShop.WebUI.csproj" Id="4b5961ab-d6ff-4fa4-9bae-818b14f78f98" />
+  </Folder>
+  <Folder Name="/IdentityServer/">
+    <Project Path="IdentityServer/MultiShopIdentityServer/MultiShopIdentityServer.csproj" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Basket/">
+    <Project Path="Services/Basket/MultiShop.Basket/MultiShop.Basket.csproj" />
+  </Folder>
+  <Folder Name="/Services/Cargo/">
+    <Project Path="Services/Cargo/MultiShop.Cargo.BusinessLayer/MultiShop.Cargo.BusinessLayer.csproj" Id="2b7407be-58ae-4507-89b5-d24818ce2b45" />
+    <Project Path="Services/Cargo/MultiShop.Cargo.DataAccessLayer/MultiShop.Cargo.DataAccessLayer.csproj" Id="cb731ac2-7be2-42be-a84a-13214b065ae3" />
+    <Project Path="Services/Cargo/MultiShop.Cargo.DtoLayer/MultiShop.Cargo.DtoLayer.csproj" Id="ace6b891-489d-4303-9f87-595efcf37089" />
+    <Project Path="Services/Cargo/MultiShop.Cargo.EntityLayer/MultiShop.Cargo.EntityLayer.csproj" Id="45fe4808-b7a6-4466-b486-107cc145aab6" />
+    <Project Path="Services/Cargo/MultiShop.Cargo.WebApi/MultiShop.Cargo.WebApi.csproj" Id="b5ddd22b-52a1-410c-82f9-971c23b91504" />
+  </Folder>
+  <Folder Name="/Services/Catalog/">
+    <Project Path="Services/Catalog/MultiShop.Catalog/MultiShop.Catalog.csproj" Id="52f9e2e9-86a1-40cf-9700-e808129478a3" />
+  </Folder>
+  <Folder Name="/Services/Discount/">
+    <Project Path="Services/Discount/MultiShop.Discount/MultiShop.Discount.csproj" Id="1bdd39f6-2f7f-4c55-965c-da234da4203e" />
+  </Folder>
+  <Folder Name="/Services/Order/" />
+  <Folder Name="/Services/Order/Core/">
+    <Project Path="Services/Order/Core/MultiShopOrderApplication/MultiShopOrderApplication.csproj" Id="aed18d54-ca33-442a-b75a-9c39b665a368" />
+    <Project Path="Services/Order/Core/MultiShopOrderDomain/MultiShopOrderDomain.csproj" Id="0106ba46-e26c-42ec-8a32-1e16b29b05ee" />
+  </Folder>
+  <Folder Name="/Services/Order/Infastructure/">
+    <Project Path="Services/Order/Infastructure/MultiShopOrderPersistence/MultiShopOrderPersistence.csproj" Id="1ee99304-6f85-482d-9543-bf91abbd9df4" />
+  </Folder>
+  <Folder Name="/Services/Order/Presentation/">
+    <Project Path="Services/Order/Presentation/MultiShopOrderWebApi/MultiShopOrderWebApi.csproj" Id="8174f776-460d-41d7-b3cc-027dae73023f" />
+  </Folder>
+</Solution>

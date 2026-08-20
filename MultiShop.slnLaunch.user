@@ -1,0 +1,41 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "IdentityServer\\MultiShopIdentityServer\\MultiShopIdentityServer.csproj",
+        "Action": "Start",
+        "DebugTarget": "MultiShopIdentityServer"
+      },
+      {
+        "Path": "Services\\Catalog\\MultiShop.Catalog\\MultiShop.Catalog.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "Services\\Discount\\MultiShop.Discount\\MultiShop.Discount.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "Services\\Order\\Presentation\\MultiShopOrderWebApi\\MultiShopOrderWebApi.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "Services\\Cargo\\MultiShop.Cargo.WebApi\\MultiShop.Cargo.WebApi.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\Basket\\MultiShop.Basket\\MultiShop.Basket.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]

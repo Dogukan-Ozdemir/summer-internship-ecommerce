@@ -1,0 +1,42 @@
+﻿<div class="container-fluid">
+
+    <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+
+        <div class="col-lg-4">
+            <a href="" class="text-decoration-none">
+                <span class="h1 text-uppercase text-primary bg-dark px-2">DoDo</span>
+                <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Ticaret</span>
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-6 text-left">
+            <form action="">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter product to search">
+                    <div class="input-group-append">
+                        <span class="input-group-text bg-transparent text-primary">
+                            <i class="fa fa-search"></i>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-lg-4 col-6 d-flex justify-content-end align-items-center">
+
+            <div class="text-right mr-3">
+                <p class="m-0">Phone Number</p>
+                <h5 class="m-0">+90 543 321 12 14</h5>
+            </div>
+
+            <a asp-area="" asp-controller="Profile" asp-action="Index">
+                <img src="@ViewBag.ProfileImage"
+                     alt="Profile"
+                     style="width:45px;height:45px;border-radius:50%;object-fit:cover;border:2px solid #FFD333;cursor:pointer;">
+            </a>
+
+        </div>
+
+    </div>
+
+</div>

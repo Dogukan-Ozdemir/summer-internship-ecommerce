@@ -1,0 +1,17 @@
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\bin\Debug\net10.0\MultiShop.Cargo.BusinessLayer.deps.json
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\bin\Debug\net10.0\MultiShop.Cargo.BusinessLayer.dll
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\bin\Debug\net10.0\MultiShop.Cargo.BusinessLayer.pdb
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\bin\Debug\net10.0\MultiShop.Cargo.DataAccessLayer.dll
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\bin\Debug\net10.0\MultiShop.Cargo.EntityLayer.dll
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\bin\Debug\net10.0\MultiShop.Cargo.DataAccessLayer.pdb
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\bin\Debug\net10.0\MultiShop.Cargo.EntityLayer.pdb
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\MultiShop.Cargo.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\MultiShop.Cargo.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\MultiShop.Cargo.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\MultiShop.Cargo.BusinessLayer.AssemblyInfo.cs
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\MultiShop.Cargo.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\MultiSho.9C1E364B.Up2Date
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\MultiShop.Cargo.BusinessLayer.dll
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\refint\MultiShop.Cargo.BusinessLayer.dll
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\MultiShop.Cargo.BusinessLayer.pdb
+C:\Users\doguk\source\repos\MultiShop\Services\Cargo\MultiShop.Cargo.BusinessLayer\obj\Debug\net10.0\ref\MultiShop.Cargo.BusinessLayer.dll

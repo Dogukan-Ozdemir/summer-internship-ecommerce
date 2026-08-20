@@ -1,0 +1,53 @@
+﻿@using MultiShop.DtoLayer.BasketDtos
+@model BasketItemDto
+
+@{
+    ViewData["Title"] = "Add Basket Item";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="content container-fluid">
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div class="chart-box">
+
+                <form method="post">
+
+                    <label>Product Id</label>
+                    <input asp-for="ProductId" class="form-control" />
+                    <br />
+
+                    <label>Product Name</label>
+                    <input asp-for="ProductName" class="form-control" />
+                    <br />
+
+                    <label>Price</label>
+                    <input asp-for="Price" class="form-control" />
+                    <br />
+
+                    <label>Quantity</label>
+                    <input asp-for="Quantity" class="form-control" />
+                    <br />
+
+                    <label>Image Url</label>
+                    <input asp-for="ProductImageUrl" class="form-control" />
+                    <br />
+
+                    <button class="btn btn-success">
+
+                        Add Basket Item
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

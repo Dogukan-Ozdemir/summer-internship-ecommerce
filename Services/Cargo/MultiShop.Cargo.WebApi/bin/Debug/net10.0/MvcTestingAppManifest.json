@@ -1,0 +1,6 @@
+{
+  "MultiShop.Cargo.BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\doguk\\source\\repos\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.BusinessLayer",
+  "MultiShop.Cargo.DataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\doguk\\source\\repos\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.DataAccessLayer",
+  "MultiShop.Cargo.DtoLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\doguk\\source\\repos\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.DtoLayer",
+  "MultiShop.Cargo.EntityLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\doguk\\source\\repos\\MultiShop\\Services\\Cargo\\MultiShop.Cargo.EntityLayer"
+}

@@ -1,0 +1,42 @@
+﻿@model ResultUserDto
+
+@{
+    ViewData["Title"] = "UserAddressInfo";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="content container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="chart-box">
+                <div class="bs-example" data-example-id="bordered-table">
+
+                    <h3>Kullanıcı Bilgileri</h3>
+
+                    <div class="alert alert-info">
+                        Kullanıcı Id: @Model.id
+                    </div>
+
+                    <div class="alert alert-warning">
+                        Kullanıcı Adı: @Model.userName
+                    </div>
+                    <div class="alert alert-info">
+                        Kullanıcı Soyadı: @Model.surname
+                    </div>
+
+                    <div class="alert alert-info">
+                        Email: @Model.email
+                    </div>
+                    <div class="alert alert-info">
+                        Number: @Model.phoneNumber
+                    </div>
+                    <div class="alert alert-info">
+                        passwordHash: @Model.passwordHash
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

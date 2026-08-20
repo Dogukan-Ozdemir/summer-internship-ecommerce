@@ -1,0 +1,79 @@
+﻿@using MultiShop.DtoLayer.OrderDtos.OrderDetailDtos
+@model List<ResultOrderDetailDto>
+
+@{
+    ViewData["Title"] = "Order Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<section class="content container-fluid">
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div class="chart-box">
+
+                <table class="table table-bordered">
+
+                    <thead>
+
+                        <tr>
+                            <th>#</th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var item in Model)
+                            {
+                                count++;
+
+                                <tr>
+
+                                    <td>@count</td>
+
+                                    <td>@item.ProductName</td>
+
+                                    <td>@item.ProductPrice ₺</td>
+
+                                    <td>@item.ProductAmount</td>
+
+                                    <td>@item.ProductTotalPrice ₺</td>
+
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="5" class="text-center">
+                                    No products found for this order.
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+
+                <a href="/Admin/Order/OrderList"
+                   class="btn btn-primary">
+                    Back to Orders
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,26 @@
+﻿@using MultiShop.DtoLayer.CargoDtos.CargoCompanyDtos
+@model List<ResultCargoCompanyDto>
+
+<div class="container-fluid py-5">
+    <div class="row px-xl-5">
+        <div class="col">
+            <div class="owl-carousel vendor-carousel">
+
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <div class="bg-light p-4" style="height:120px;width:150px">
+                            <img src="@item.ImageUrl" alt="">
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>No cargo companies found.</p>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\bin\Debug\net10.0\MultiShopOrderDomain.deps.json
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\bin\Debug\net10.0\MultiShopOrderDomain.dll
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\bin\Debug\net10.0\MultiShopOrderDomain.pdb
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\obj\Debug\net10.0\MultiShopOrderDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\obj\Debug\net10.0\MultiShopOrderDomain.AssemblyInfoInputs.cache
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\obj\Debug\net10.0\MultiShopOrderDomain.AssemblyInfo.cs
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\obj\Debug\net10.0\MultiShopOrderDomain.csproj.CoreCompileInputs.cache
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\obj\Debug\net10.0\MultiShopOrderDomain.dll
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\obj\Debug\net10.0\refint\MultiShopOrderDomain.dll
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\obj\Debug\net10.0\MultiShopOrderDomain.pdb
+C:\Users\doguk\source\repos\MultiShop\Services\Order\Core\MultiShopOrderDomain\obj\Debug\net10.0\ref\MultiShopOrderDomain.dll

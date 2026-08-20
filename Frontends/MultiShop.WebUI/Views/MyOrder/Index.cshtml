@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/_UILayout.cshtml";
+}
+
+@model List<MultiShop.DtoLayer.OrderDtos.OrderOrderingDtos.ResultOrderingByUserIdDto>
+
+<div class="container-fluid">
+    <h4 class="mb-4">My Orders</h4>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            You haven't placed any orders yet.
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Order No</th>
+                    <th>Date</th>
+                    <th>Total Price</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>#@item.OrderingId</td>
+                        <td>@item.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>₺ @item.TotalPrice</td>
+
+                        <td>
+                            @{
+                                var days = (DateTime.Now - item.OrderDate).Days;
+
+                                if (days == 0)
+                                {
+                                    <span class="badge badge-warning">Preparing</span>
+                                }
+                                else if (days == 1)
+                                {
+                                    <span class="badge badge-info">Packed</span>
+                                }
+                                else if (days == 2)
+                                {
+                                    <span class="badge badge-primary">On The Way</span>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-success">Delivered</span>
+                                }
+                            }
+                        </td>
+
+                        <td>
+                            <a href="/MyOrder/Detail/@item.OrderingId"
+                               class="btn btn-outline-primary btn-sm">
+                                View Details
+                            </a>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+    }
+</div>

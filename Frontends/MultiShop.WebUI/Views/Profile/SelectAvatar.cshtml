@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Select Avatar";
+    Layout = "~/Views/UILayout/_UILayout.cshtml";
+}
+
+<div class="container mt-5">
+
+    <h3 class="mb-4">Choose Your Avatar</h3>
+
+    <form asp-controller="Profile" asp-action="SelectAvatar" method="post" id="avatarForm">
+        <input type="hidden" id="imagePath" name="imagePath" />
+
+        <div class="row">
+
+            <div class="col-md-2 mb-4">
+                <img src="/MultiShop-Template/img/cool_Glasses_Guy.jpg"
+                     class="img-fluid rounded-circle avatar-option"
+                     data-image="/MultiShop-Template/img/cool_Glasses_Guy.jpg"
+                     style="width:150px;height:150px;object-fit:cover;cursor:pointer;border:4px solid transparent;">
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <img src="/MultiShop-Template/img/Guy_Standing.jpg"
+                     class="img-fluid rounded-circle avatar-option"
+                     data-image="/MultiShop-Template/img/Guy_Standing.jpg"
+                     style="width:150px;height:150px;object-fit:cover;cursor:pointer;border:4px solid transparent;">
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <img src="/MultiShop-Template/img/Guy_Batman.jpg"
+                     class="img-fluid rounded-circle avatar-option"
+                     data-image="/MultiShop-Template/img/Guy_Batman.jpg"
+                     style="width:150px;height:150px;object-fit:cover;cursor:pointer;border:4px solid transparent;">
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <img src="/MultiShop-Template/img/Guy_handsome.jpg"
+                     class="img-fluid rounded-circle avatar-option"
+                     data-image="/MultiShop-Template/img/Guy_handsome.jpg"
+                     style="width:150px;
+                height:150px;
+                object-fit:contain;
+                object-position:center;
+                background:#dcdcdc;
+                cursor:pointer;
+                border:4px solid transparent;">
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <img src="/MultiShop-Template/img/Guy_Drinking.jpg"
+                     class="img-fluid rounded-circle avatar-option"
+                     data-image="/MultiShop-Template/img/Guy_Drinking.jpg"
+                     style="width:150px;height:150px;object-fit:cover;cursor:pointer;border:4px solid transparent;">
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <img src="/MultiShop-Template/img/Glasses.jpg"
+                     class="img-fluid rounded-circle avatar-option"
+                     data-image="/MultiShop-Template/img/Glasses.jpg"
+                     style="width:150px;height:150px;object-fit:cover;cursor:pointer;border:4px solid transparent;">
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <img src="/MultiShop-Template/img/Guy_Upper.jpg"
+                     class="img-fluid rounded-circle avatar-option"
+                     data-image="/MultiShop-Template/img/Guy_Upper.jpg"
+                     style="width:150px;height:150px;object-fit:cover;cursor:pointer;border:4px solid transparent;">
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <img src="/MultiShop-Template/img/Guy_Looking.jpg"
+                     class="img-fluid rounded-circle avatar-option"
+                     data-image="/MultiShop-Template/img/Guy_Looking.jpg"
+                     style="width:150px;height:150px;object-fit:cover;cursor:pointer;border:4px solid transparent;">
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+<script>
+    document.querySelectorAll(".avatar-option").forEach(function (avatar) {
+
+        avatar.addEventListener("click", function () {
+
+            document.getElementById("imagePath").value = this.dataset.image;
+
+            document.getElementById("avatarForm").submit();
+
+        });
+
+    });
+</script>

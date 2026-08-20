@@ -1,0 +1,298 @@
+[
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "CargoCompanyList",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "CreateCargoCompany",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MultiShop.Cargo.DtoLayer.Dtos.CargoCompaniesDto.CreateCargoCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "CargoCompanyDelete",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "UpdateCompany",
+    "RelativePath": "api/CargoCompany",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MultiShop.Cargo.DtoLayer.Dtos.CargoCompaniesDto.UpdateCargoCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCompanyController",
+    "Method": "GEtCargoCompanyById",
+    "RelativePath": "api/CargoCompany/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCostumerController",
+    "Method": "CargoCustomerList",
+    "RelativePath": "api/CargoCostumer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCostumerController",
+    "Method": "CreateCargoCustomer",
+    "RelativePath": "api/CargoCostumer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MultiShop.Cargo.DtoLayer.Dtos.CargoCustomers.CreateCargoCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCostumerController",
+    "Method": "CargoCustomerDelete",
+    "RelativePath": "api/CargoCostumer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCostumerController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/CargoCostumer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MultiShop.Cargo.DtoLayer.Dtos.CargoCustomers.UpdateCargoCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoCostumerController",
+    "Method": "GEtCargoCustomerById",
+    "RelativePath": "api/CargoCostumer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "CargoDetailList",
+    "RelativePath": "api/CargoDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "CreateCargoDetail",
+    "RelativePath": "api/CargoDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MultiShop.Cargo.DtoLayer.Dtos.CargoDetailDto.CreateCargoDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "CargoCustomerDelete",
+    "RelativePath": "api/CargoDetail",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/CargoDetail",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MultiShop.Cargo.DtoLayer.Dtos.CargoDetailDto.UpdateCargoDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoDetailController",
+    "Method": "GEtCargoCustomerById",
+    "RelativePath": "api/CargoDetail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "CargoOperationList",
+    "RelativePath": "api/CargoOperation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "CreateCargoOperation",
+    "RelativePath": "api/CargoOperation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MultiShop.Cargo.DtoLayer.Dtos.CargoOperationDto.CreateCargoOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "CargoCustomerDelete",
+    "RelativePath": "api/CargoOperation",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/CargoOperation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MultiShop.Cargo.DtoLayer.Dtos.CargoOperationDto.UpdateCargoOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiShop.Cargo.WebApi.Controllers.CargoOperationController",
+    "Method": "GEtCargoCustomerById",
+    "RelativePath": "api/CargoOperation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
