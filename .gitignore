@@ -4,3 +4,6 @@ dist/
 build/
 .next/
 .vscode/
+
+# Docker environment variables
+.env
